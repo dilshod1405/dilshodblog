@@ -1,0 +1,87 @@
+.bio{
+    width: 1050px;
+    margin: auto;
+    padding-top: 3%;
+    border-right: #f3b56469 solid 1px;
+    border-left: #f3b56469 solid 1px;
+    .info{
+        display: flex;
+        .photo{
+            width: 230px;
+            opacity: 0.7;
+            border-radius: 50%;
+            border: solid 3px #F3B664;
+            margin: auto;
+            
+        }
+        .elements{
+            padding-left: 3%;
+            .table{
+                
+                width: 700px;
+                th{
+                    background-color: #f3b56400;
+                    color: #F3B664;
+                    border-bottom: #F3B664 solid 1px;
+                    i{
+                        font-size: 30px;
+                    }
+                }
+                td{
+                    background-color: #f3b56400;
+                    color: #F3B664;
+                    border-bottom: #F3B664 solid 1px;
+                    a{
+                        color: #F3B664;
+                        text-decoration: none;
+                    }
+                }
+            }
+            h4{
+                color: rgba(255, 255, 255, 0.703);
+            }
+            ul{
+                display: flex;
+                li{
+                    display: block;
+                    padding: 10px;
+                    i{
+                        color: #F3B664;
+                        font-size: 56px;
+                    }
+                }
+            }
+        }
+    } 
+}
+
+@media screen and (max-width: 850px) {
+    .bio{
+        width: 400px;
+        .info{
+            display: block;
+
+            img{
+                width: 150px;
+                margin: auto;
+                display: block;
+            }
+
+            .elements{
+                padding-left: 0%;
+                padding-top: 5%;
+                padding-bottom: 5%;
+                .table{
+                    width: 390px;
+                    margin: auto;
+                    th{
+                        font-size: 14px;
+                        i{
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

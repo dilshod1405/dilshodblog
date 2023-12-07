@@ -1,0 +1,94 @@
+.banner{
+    padding-top: 1%;
+    margin: auto;
+    display: block;
+    width: 1050px; 
+    .context{
+        display: flex;
+        width: 1050px;
+        img{
+            width: 300px;
+            border-bottom-right-radius: 25%;
+            border-bottom-left-radius: 25%;
+            object-fit: cover;
+            float: right;
+            margin: auto;
+            opacity: 0.7;
+            border-bottom: solid 5px #F3B664;
+            transition: 0.2s;
+
+            &:hover{
+                // filter: drop-shadow(0 0 0.50rem #F3B664);
+                transition: 0.5s;
+                scale: 1.1;
+            }
+        }
+        .texts{
+            width: 700px;
+            padding-top: 4%;
+            p{
+                color: rgba(255, 255, 255, 0.703);
+                padding-top: 2%;
+            }
+
+            h1{
+                font-size: 48px;
+            }
+            a {
+                &:hover{
+                    // background-color: #1C282B;
+                    font-size: 24px;
+                    color: #F3B664;
+                    transition: 0.8s ease;
+                    border: solid #F3B664 1px;
+                    background: rgb(57,57,57);
+                    background: linear-gradient(65deg, rgba(57,57,57,1) 0%, rgba(28,40,43,1) 54%, rgba(28,40,43,1) 100%);
+                }
+                color: #1C282B;
+                padding: 7px 10px;
+                border-radius: 5px 20px;
+                text-decoration: none;
+                background-color: #F3B664;
+                transition: 0.8s ease;
+                border: solid #F3B664 1px;
+            }
+            
+            
+        }
+    }
+    
+}
+
+@media screen and (max-width: 850px){
+    .banner{
+        width: 400px;
+        display: inline-block;
+        margin: auto;
+
+        .context{
+            display: inline-block;
+            img{
+                width: 100px;
+                float: left;
+                margin: auto;
+                display: block;
+                margin-left: 15%;
+                margin-top: 3%;
+            }
+            .texts{
+                width: 400px;
+                text-align: center;
+                h1{
+                    font-size: 22px;
+                }
+                a{
+                    font-size: 16px;
+                    display: inline-block;
+                    margin: auto;
+                    width: 300px;
+                    margin-top: 2%;
+                }
+            }
+        }
+    }
+}
