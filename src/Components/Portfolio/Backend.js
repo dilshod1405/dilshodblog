@@ -7,7 +7,7 @@ function BackendPortfolio(props) {
   const [data, setData, ] = useState([]);
 
   useEffect(() => {
-    const url = "http://127.0.0.1:8000/backends/";
+    const url = "https://dilshod1405.pythonanywhere.com/backends/";
     axios.get(url)
       .then((response) => setData(response.data))
       .catch((error) => console.log(error));
