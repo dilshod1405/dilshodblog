@@ -26,7 +26,6 @@ function BackendPortfolio(props) {
                           <div className="card-body">
                             <a className="card-text" href={info.github}>- {info.title} -</a>
                           </div>
-                          <a href={'/'} className='detail'>{props.backend('backend.text')}</a>
                       </div>
                     </div>
                     ))}
