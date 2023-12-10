@@ -26,7 +26,6 @@ function FrontendPortfolio(props) {
                           <div className="card-body">
                             <a className="card-text" href={info.deployment}>- {info.title} -</a>
                           </div>
-                          <a href={'/'} className='detail'>{props.frontend('frontend.text')}</a>
                       </div>
                     </div>
                     ))}
