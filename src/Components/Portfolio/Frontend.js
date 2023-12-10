@@ -6,7 +6,7 @@ import axios from 'axios';
 function FrontendPortfolio(props) {
   const [data, setData, ] = useState([]);
   useEffect(() => {
-    const url = "http://127.0.0.1:8000/frontends/";
+    const url = "https://dilshod1405.pythonanywhere.com/frontends/";
     axios.get(url)
       .then((response) => setData(response.data))
       .catch((error) => console.log(error));
