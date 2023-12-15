@@ -54,8 +54,8 @@ const architecture = [
 
 const works = [
   {
-    link: 'https://labormigration.uz/',
-    logo: 'https://konkurs.migration.uz/images/migr.jpg',
+    link: 'http://migration.uz/',
+    logo: 'http://migration.uz/images/logo/logo.png',
     title: 'company1',
     speciality: 'position1',
     demand: "responsiblity1"
