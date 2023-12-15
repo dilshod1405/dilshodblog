@@ -6,7 +6,7 @@
   background: rgb(57,57,57);
   background: linear-gradient(65deg, rgba(57,57,57,1) 0%, rgba(28,40,43,1) 54%, rgba(28,40,43,1) 100%);
   animation: gradient 3s ease infinite;
-  background-size: 150% 150%;
+  background-size: 300% 300%;
   
 }
 
