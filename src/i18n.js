@@ -117,7 +117,7 @@ i18n
             office: 'Tashkilot nomi',
             posrow: 'Lavozim',
             demand: 'Majburiyatlar',
-            responsiblity1: "Tashkilot xodimlari va fuqarolariga sifatli IT xizmatlarini taqdim etish. Tashkilotga tegishli barcha orgtexnika vositalarini ta'mirlash va uzluksiz ishlashini nazorat qilish. Imtihonlar uchun rahbariyat tomonidan buyurtma qilingan alohida ofis jihozlarini o'rnatish. Dasturiy ta'minot bilan ishlash, tashkilot veb-saytlarining boshqa tillardagi talqinini ishlab chiqish. Shuningdek, boshqa turdagi qo'shimcha amaliyotlarni bajarish.",
+            responsiblity1: "Tashkilot xodimlari va fuqarolariga sifatli IT xizmatlarini taqdim etish. Tashkilotga tegishli barcha orgtexnika vositalarini ta'mirlash va uzluksiz ishlashini nazorat qilish. Imtihonlar uchun rahbariyat tomonidan buyurtma qilingan alohida sahifalarni ishlab chiqish. Dasturiy ta'minot bilan ishlash, tashkilot veb-saytlarining boshqa tillardagi talqinini ishlab chiqish. Mavsumiy imtihonlar uchun python va java dasturlash tillarida test platformalarini ishlab chiqish. Shuningdek, boshqa turdagi qo'shimcha amaliyotlarni bajarish.",
             responsiblity2: "Kompaniyaning mijozlari orasida kompaniya mahsulotlarini onlayn reklama qilish. Kompaniya veb-saytlari loyihalarini ishlab chiqish va taqdim etish. Onlayn xizmatlarni rivojlantirish bo'yicha takliflarni ishlab chiqish va amalga oshirish. Shuningdek, kompaniyaning chizma loyihalarini chizish."
           },
           videos: {
@@ -175,7 +175,7 @@ i18n
             office: 'Название организации',
             posrow: 'Позиция',
             demand: 'Обязательства',
-            responsiblity1: "Предоставление качественных IT-услуг сотрудникам и гражданам организации. Контроль ремонта и бесперебойной работы всей оргтехники, принадлежащей организации. Установка отдельного оргтехники по заказу руководства для проведения экспертиз. Работа с программным обеспечением, разработка перевода сайтов организации на другие языки. А также выполнение других видов дополнительных практик.",
+            responsiblity1: "Предоставление качественных ИТ-услуг сотрудникам и гражданам организации. Контроль ремонта и бесперебойной работы всей оргтехники, принадлежащей организации. Разработка отдельных страниц по заказу руководства для экзаменов. Работа с программным обеспечением, разработка перевода сайтов организации на другие языки. Разработка платформ тестирования на языках программирования Python и Java для сезонных экзаменов. А также выполнение других видов дополнительных практик.",
             responsiblity2: "Интернет-реклама продукции компании среди клиентов компании. Разработка и презентация проектов веб-сайтов компании. Разработка и реализация предложений по развитию онлайн-сервисов. Также рисование чертежных проектов компании."
           },
           videos: {
