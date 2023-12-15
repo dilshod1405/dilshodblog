@@ -28,5 +28,6 @@
       margin: auto;
       display: block;
       min-height: 270vh;
+      overflow-x: hidden;
     }
 }
