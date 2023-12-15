@@ -182,7 +182,7 @@ export default class Biography extends Component {
                 <tbody>
                   {works.map((info) => (
                       <tr>
-                      <th scope="row"><a href={info.link}><img src={info.logo} alt="" style={{width: '70px', height: '70px', borderRadius: '50%', objectFit: 'cover', border: `solid 2px ${element.text}`}}/></a><br /> {this.props.biography(`biography.${info.title}`)}</th>
+                      <th scope="row"><a href={info.link}><img src='http://migration.uz/images/logo/logo.png' alt="" style={{width: '70px', height: '70px', borderRadius: '50%', objectFit: 'cover', border: `solid 2px ${element.text}`}}/></a><br /> {this.props.biography(`biography.${info.title}`)}</th>
                       <td>{this.props.biography(`biography.${info.speciality}`)}</td>
                       <td>{this.props.biography(`biography.${info.demand}`)}</td>
                     </tr>
