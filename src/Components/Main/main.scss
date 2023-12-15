@@ -22,6 +22,7 @@
             background-color: #F3B664;
             transition: 0.1s ease;
             padding-bottom: 1%;
+            height: 200px;
             &:hover{
                 scale: 1.1;
                 transition: 0.5s ease;
@@ -45,7 +46,6 @@
             padding-top: 10%;
             .mycard{
                 margin-top: 5%;
-
                 padding-top: 5%;
             }
         }
