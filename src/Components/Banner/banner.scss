@@ -1,0 +1,102 @@
+.banner{
+    padding-top: 1%;
+    margin: auto;
+    display: block;
+    width: 100%;
+    
+
+    .context{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        
+
+        .texts{
+            
+            display: block;
+            padding-top: 2%;
+            padding-right: 3%;
+            p{
+                color: rgba(255, 255, 255, 0.703);
+                padding-top: 2%;
+            }
+
+            h1{
+                font-size: 48px;
+            }
+            a {
+                &:hover{
+                    // background-color: #1C282B;
+                    font-size: 24px;
+                    color: #F3B664;
+                    transition: 0.8s ease;
+                    border: solid #F3B664 1px;
+                    background: rgb(57,57,57);
+                    background: linear-gradient(65deg, rgba(57,57,57,1) 0%, rgba(28,40,43,1) 54%, rgba(28,40,43,1) 100%);
+                }
+                color: #1C282B;
+                padding: 7px 10px;
+                border-radius: 5px 20px;
+                text-decoration: none;
+                background-color: #F3B664;
+                transition: 0.8s ease;
+                border: solid #F3B664 1px;
+            }
+            
+            
+        }
+
+        img{
+            width: 300px;
+            border-bottom-right-radius: 25%;
+            border-bottom-left-radius: 25%;
+            object-fit: cover;
+            
+
+            
+            opacity: 0.7;
+            border-bottom: solid 5px #F3B664;
+            transition: 0.2s;
+
+            &:hover{
+                // filter: drop-shadow(0 0 0.50rem #F3B664);
+                transition: 0.5s;
+                scale: 1.1;
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width: 850px){
+    .banner{
+        width: auto;
+        display: block;
+        margin: auto;
+
+        .context{
+           display: block;
+            img{
+                width: 200px;
+                margin: auto;
+                display: block;
+                
+            }
+            .texts{
+                margin: auto;
+                width: auto;
+                text-align: center;
+                h1{
+                    font-size: 20px;
+                }
+                a{
+                    font-size: 16px;
+                    display: inline-block;
+                    margin: auto;
+                    margin-top: 2%;
+                    
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.footer{
+    margin: auto;
+    width: 100%;
+    padding-bottom: 1%;
+
+    ul{
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+        li{
+            padding: 10px 10px;
+            display: block;
+            a{
+                color: #F3B664;
+                text-decoration: none;
+            }
+        }
+    }
+    p{
+        color: rgba(255, 255, 255, 0.703);
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 850px) and (min-width: 360px){
+    .footer{
+        width: auto;
+        margin: auto;
+        text-align: center;
+        padding-bottom: 3%;
+
+        ul{
+            
+            display: block;
+            
+            li{
+                padding: 5px 0px;
+            }
+        }
+
+        p{
+            text-align: center;
+        }
+    }
+}

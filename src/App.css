@@ -1,0 +1,35 @@
+
+.App{
+  /* background-color: #1C282B; */
+  min-height: 100dvh;
+  /* background: rgb(28,40,43); */
+  background: rgb(57,57,57);
+  background: linear-gradient(65deg, rgba(57,57,57,1) 0%, rgba(28,40,43,1) 54%, rgba(28,40,43,1) 100%);
+  animation: gradient 3s ease infinite;
+  background-size: 300% 300%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 20%;
+	}
+	50% {
+		background-position: 100% 20%;
+	}
+	100% {
+		background-position: 0% 20%;
+	}
+}
+
+@media screen and (max-width: 850px) and (min-width: 360px){
+    .App{
+      width: auto;
+      margin: auto;
+      display: block;
+
+    }
+}

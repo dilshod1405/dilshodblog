@@ -1,0 +1,27 @@
+.videocards{
+    width: 1050px;
+    margin: auto;
+    .card{
+        background-color: rgba(0, 0, 0, 0);
+        border: solid rgba(0, 0, 0, 0);
+    }
+    a{
+        text-decoration: none;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .videocards{
+        width: auto;
+        display: block;
+        margin: auto;
+    }
+
+    .error{
+        padding: 10% 0%;
+        width: auto;
+        margin: auto;
+        display: block;
+    }
+}

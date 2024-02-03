@@ -1,0 +1,112 @@
+.header{
+    padding-top: 5px;
+    position: sticky;
+    top: 0;
+    margin: auto;
+    display: block;
+    width: 100%;
+    
+    // background-color: #1C282B;
+    z-index: 100 !important;
+    border-bottom: solid 1px #F3B664;
+    background: rgb(57,57,57);
+    background: linear-gradient(65deg, rgba(57,57,57,1) 0%, rgba(28,40,43,1) 54%, rgba(28,40,43,1) 100%);
+    animation: gradient 3s ease infinite;
+    background-size: 300% 300%;
+    box-shadow: #f3b56482 0px 8px 24px;
+    
+
+
+    #navbar{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+
+        a{
+            text-decoration: none;
+
+            h5{
+                margin-top: 9px;
+                padding-right: 250px;
+            }
+            
+        }
+
+        .icons{
+            display: flex;
+            padding-left: 0;
+           
+            justify-content: center;
+        
+            li{
+                display: block;
+                padding: 0px 5px;
+                
+
+                a{
+                    text-decoration: none;
+                    color: #F3B664;
+                }
+            }
+        }
+    }
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@media screen and (max-width: 920px) and (min-width: 360px) {
+    .header{
+        width: auto;
+        margin: auto;
+        position: sticky;
+        display: block;
+        top: 0;
+
+
+
+        #navbar{
+            display: block;
+            width: auto;
+            margin: auto;
+
+            a{
+                text-decoration: none;
+
+                h5{
+                    margin-top: 9px;
+                    padding-right: 0px;
+                    font-size: 17px;
+                    text-align: center;
+                    padding-bottom: 10%;
+                    
+                }
+                
+            }
+           
+            .icons{
+                display: flex;
+
+                li{
+                    .btn{
+                        padding: 5px;
+                    }
+                    
+                    padding: 0px;
+                    a{
+                        font-size: 12px;
+                    }
+                }
+            }
+            
+        }
+    }
+}

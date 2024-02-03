@@ -1,0 +1,58 @@
+.cards{
+    width: 100%;
+    margin: auto;
+    padding-bottom: 5%;
+    padding-top: 3%;
+    h5{
+        color: rgba(255, 255, 255, 0.703);
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .row{
+        width: 70%;
+        margin: auto;
+        padding-top: 2%;
+        .mycard{
+            border: solid 2px ;
+            border-bottom-left-radius: 70px;
+            border-top-right-radius: 70px;
+            text-align: center;
+            width: 300px;
+            padding-top: 1%;
+            margin: auto;
+            background-color: #F3B664;
+            transition: 0.1s ease;
+            padding-bottom: 1%;
+            height: 250px;
+            &:hover{
+                scale: 1.1;
+                transition: 0.5s ease;
+                box-shadow: #f3b56482 0px 8px 24px;
+            }
+            p{
+                font-size: 14px;
+            }
+            h5{
+                color: #1C282B;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 850px){
+    .cards{
+        width: auto;
+        .row{
+            padding-top: 10%;
+            width: auto;
+
+            .mycard{
+                margin-top: 5%;
+                padding-top: 5%;
+                height: 270px;
+            }
+            
+        }
+    }
+}
