@@ -16,7 +16,7 @@ i18n
             banner: 'Hello, My fullname is',
             title: 'An creative Architect & Full stack developer',
             link1: 'More information about me',
-            logo: "Dilshod's blog"
+            logo: "Welcome to Dilshod's private blog"
           },
           main: {
             title: 'What Can I Do',
