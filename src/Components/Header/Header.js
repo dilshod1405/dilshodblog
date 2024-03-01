@@ -18,8 +18,8 @@ export default class Header extends Component {
             <ul className='icons'>    
                 <li><button className='btn'><a href={'videos'}><i className="fa-solid fa-video fa-lg" style={{color: element.text}}></i></a></button></li>
                 <li><button className='btn'><a href={'https://github.com/dilshod1405?tab=repositories'}><i className="fa-brands fa-github fa-lg" style={{color: element.text}}></i></a></button></li>
-                <li><button className='btn'><a href={'https://t.me/dilshod_developer'}><i className="fa-brands fa-telegram fa-lg" style={{color: element.text}}></i></a></button></li>
-                <li><button className='btn'><a href={'https://instagram.com/_fullstack_engineer_'}><i className="fa-brands fa-instagram fa-lg" style={{color: element.text}}></i></a></button></li>
+                <li><button className='btn'><a href={'https://t.me/dilshod_1405'}><i className="fa-brands fa-telegram fa-lg" style={{color: element.text}}></i></a></button></li>
+                <li><button className='btn'><a href={'https://instagram.com/shod__official'}><i className="fa-brands fa-instagram fa-lg" style={{color: element.text}}></i></a></button></li>
                 <li><button className='btn'><a href={'https://www.linkedin.com/in/dilshod-normurodov-0b886824b/'}><i className="fa-brands fa-linkedin fa-lg" style={{color: element.text}}></i></a></button></li>
                 
             </ul>
