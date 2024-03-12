@@ -10,7 +10,6 @@ export default class Footer extends Component {
                 <li ><a target='blank' href={'bio'}>{this.props.footer('footer.biography')}</a></li>
                 <li ><a target='blank' href={'https://github.com/dilshod1405?tab=repositories'}>Github</a></li>
                 <li ><a target='blank' href={'https://t.me/dilshod_1405'}>Telegram</a></li>
-                <li ><a target='blank' href={'https://instagram.com/shod__official'}>Instagram</a></li>
                 <li ><a target='blank' href={'https://www.linkedin.com/in/dilshod-normurodov-0b886824b/'}>LinkedIn</a></li>
             </ul>
             <p>© 2023 Dilshod Normurodov</p>
