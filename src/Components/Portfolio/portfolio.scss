@@ -21,6 +21,9 @@
         padding-bottom: 2%;
         width: 300px;
         margin: auto;
+          &:hover{
+              scale: 1.15;
+          }
         
         i{
           color: #F3B664;
@@ -30,10 +33,6 @@
           color: #F3B664;
           font-size: 20px;
           transition: 0.5s ease;
-          &:hover{
-            font-size: 21px;
-            transition: 0.5s ease;
-          }
         }
         .detail{
           color: #F3B664;
