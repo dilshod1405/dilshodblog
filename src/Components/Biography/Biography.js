@@ -97,7 +97,12 @@ export default class Biography extends Component {
               </tr>
               <tr>
                 <th scope="row"><i class="fa-brands fa-js fa-fade"></i></th>
-                <td >JavaScript - frontend development</td>
+                <td >JavaScript</td>
+                <td><i class="fa-solid fa-right-long fa-fade"></i> <a href="https://online.pdp.uz/">PDP Academy</a></td>
+              </tr>
+              <tr>
+                <th scope="row"><i class="fa-brands fa-js fa-fade"></i></th>
+                <td >TypeScript</td>
                 <td><i class="fa-solid fa-right-long fa-fade"></i> <a href="https://online.pdp.uz/">PDP Academy</a></td>
               </tr>
               <tr>
@@ -128,6 +133,11 @@ export default class Biography extends Component {
               <tr>
                 <th scope="row"><i class="fa-solid fa-database fa-fade"></i></th>
                 <td >PostgreSQL database development</td>
+                <td><i class="fa-solid fa-right-long fa-fade"></i> <a href="https://online.pdp.uz/">PDP Academy</a></td>
+              </tr>
+              <tr>
+                <th scope="row"><i class="fa-solid fa-link fa-fade"></i></th>
+                <td >API connection between frontend and backend by axios</td>
                 <td><i class="fa-solid fa-right-long fa-fade"></i> <a href="https://online.pdp.uz/">PDP Academy</a></td>
               </tr>
               <tr>
