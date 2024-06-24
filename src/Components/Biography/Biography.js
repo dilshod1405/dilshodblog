@@ -91,11 +91,6 @@ export default class Biography extends Component {
                 <td><i class="fa-solid fa-right-long fa-fade"></i> <a href="https://www.udemy.com/">Udemy</a></td>
               </tr>
               <tr>
-                <th scope="row"><i class="fa-brands fa-node fa-fade"></i></th>
-                <td >Node.js development</td>
-                <td><i class="fa-solid fa-right-long fa-fade"></i> <a href="https://online.pdp.uz/">PDP Academy</a></td>
-              </tr>
-              <tr>
                 <th scope="row"><i class="fa-brands fa-react fa-fade"></i></th>
                 <td >React development</td>
                 <td><i class="fa-solid fa-right-long fa-fade"></i> <a href="https://online.pdp.uz/">PDP Academy</a></td>
@@ -107,12 +102,12 @@ export default class Biography extends Component {
               </tr>
               <tr>
                 <th scope="row"><i class="fa-brands fa-html5 fa-fade"></i></th>
-                <td >HTML - frontend development</td>
+                <td >HTML</td>
                 <td><i class="fa-solid fa-right-long fa-fade"></i> <a href="https://online.pdp.uz/">PDP Academy</a></td>
               </tr>
               <tr>
                 <th scope="row"><i class="fa-brands fa-css3-alt fa-fade"></i></th>
-                <td >CSS - frontend development</td>
+                <td >CSS</td>
                 <td><i class="fa-solid fa-right-long fa-fade"></i> <a href="https://online.pdp.uz/">PDP Academy</a></td>
               </tr>
               <tr>
@@ -122,18 +117,13 @@ export default class Biography extends Component {
               </tr>
               <tr>
                 <th scope="row" className='fa-fade px-3'>dj</th>
-                <td >Django web development</td>
+                <td >Django rest framework web development</td>
                 <td><i class="fa-solid fa-right-long fa-fade"></i> <a href="https://online.pdp.uz/">PDP Academy</a></td>
               </tr>
               <tr>
                 <th scope="row"><i class="fa-brands fa-github fa-fade"></i></th>
-                <td >Git</td>
+                <td >Github</td>
                 <td><i class="fa-solid fa-right-long fa-fade"></i> <a href="https://online.pdp.uz/">PDP Academy</a></td>
-              </tr>
-              <tr>
-                <th scope="row"><i class="fa-brands fa-bootstrap fa-fade"></i></th>
-                <td >Bootstrap library</td>
-                <td><i class="fa-solid fa-right-long fa-fade"></i> <a href="https://getbootstrap.com/">Bootstrap</a></td>
               </tr>
               <tr>
                 <th scope="row"><i class="fa-solid fa-database fa-fade"></i></th>
@@ -142,7 +132,7 @@ export default class Biography extends Component {
               </tr>
               <tr>
                 <th scope="row"><i class="fa-solid fa-terminal fa-fade"></i></th>
-                <td >Working in windows and linux terminal</td>
+                <td >Work in windows and linux terminals</td>
                 <td><i class="fa-solid fa-right-long fa-fade"></i> <a href="https://www.youtube.com/watch?v=Jfvg3CS1X3A">YouTobe lessons </a></td>
               </tr>
               
