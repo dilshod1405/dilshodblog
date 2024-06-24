@@ -13,22 +13,16 @@ const architecture = [
   {
     icon: 'fa-solid fa-screwdriver-wrench fa-fade',
     portfolio: '',
-    link_icon: 'fa-solid fa-right-long fa-fade',
-    link: 'link',
     speciality: 'cons',
   },
   {
     icon: 'fa-brands fa-intercom fa-fade',
     portfolio: '',
-    link_icon: 'fa-solid fa-right-long fa-fade',
-    link: 'link',
     speciality: 'interior',
   },
   {
     icon: 'fa-solid fa-building-columns fa-fade',
     portfolio: '',
-    link_icon: 'fa-solid fa-right-long fa-fade',
-    link: 'link',
     speciality: 'exterior'
   },
   {
@@ -40,12 +34,7 @@ const architecture = [
     icon: 'fa-brands fa-unity fa-fade',
     portfolio: '',
     speciality: 'max'
-  },
-  {
-    icon: 'fa-solid fa-pencil fa-fade',
-    portfolio: '',
-    speciality: 'corel',
-  },
+  }
 ]
 
 const works = [
