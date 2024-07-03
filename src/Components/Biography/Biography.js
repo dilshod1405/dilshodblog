@@ -5,9 +5,9 @@ import element from '../Constants/elements'
 const architecture = [
   {
     icon: 'fa-solid fa-archway fa-fade',
-    portfolio: '',
+    portfolio: 'https://t.me/dilshodblog_1405',
     link_icon: 'fa-solid fa-right-long fa-fade',
-    link: 'link',
+    link: 'portfolio',
     speciality: 'arch'
   },
   {
