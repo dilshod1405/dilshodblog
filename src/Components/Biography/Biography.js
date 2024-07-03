@@ -115,6 +115,11 @@ export default class Biography extends Component {
                 <td><i class="fa-solid fa-right-long fa-fade"></i> <a href="https://online.pdp.uz/">PDP Academy</a></td>
               </tr>
               <tr>
+                <th scope="row" className='fa-fade px-3'><i className="fa-brands fa-java fa-fade"></i></th>
+                <td >Spring boot</td>
+                <td><i class="fa-solid fa-right-long fa-fade"></i> <a href="https://youtu.be/Nv2DERaMx-4?si=61URGwHmn1CHbOs5">YouTobe lessons</a></td>
+              </tr>
+              <tr>
                 <th scope="row"><i class="fa-brands fa-github fa-fade"></i></th>
                 <td >Github</td>
                 <td><i class="fa-solid fa-right-long fa-fade"></i> <a href="https://online.pdp.uz/">PDP Academy</a></td>
@@ -126,7 +131,7 @@ export default class Biography extends Component {
               </tr>
               <tr>
                 <th scope="row"><i class="fa-solid fa-link fa-fade"></i></th>
-                <td >API connection between frontend and backend by axios</td>
+                <td >API connection between frontend and backend</td>
                 <td><i class="fa-solid fa-right-long fa-fade"></i> <a href="https://online.pdp.uz/">PDP Academy</a></td>
               </tr>
               <tr>
