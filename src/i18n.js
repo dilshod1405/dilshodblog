@@ -40,9 +40,9 @@ i18n
             biography: 'Biography'
           },
           biography: {
-            title1: "List",
+            title1: "-",
             skills: 'IT skills',
-            link: "How I learnt it (web site)",
+            link: "How I learnt it",
             title2: "Programs",
             skills2: "Architectural skills",
             arch: 'Architectural projects',
@@ -98,10 +98,10 @@ i18n
             biography: 'Biografiya'
           },
           biography: {
-            title1: "Ro'yhat",
-            skills: 'IT bilimlar',
-            link: "Men uni qanday o'rgandim (veb sahifa)",
-            title2: "Dasturlar",
+            title1: "-",
+            skills: 'Texnologiya',
+            link: "Men uni qanday o'rgandim",
+            title2: "-",
             skills2: "Yo'nalishlar",
             arch: 'Arxitektura loyihalari',
             cons: 'Qurilish konstruksiyalari loyihalari',
@@ -156,10 +156,10 @@ i18n
             biography: 'Биография'
           },
           biography: {
-            title1: "Список",
+            title1: "-",
             skills: 'знание IT',
-            link: "Как я этому научился (веб-страница)",
-            title2: "Программы",
+            link: "Как я этому научился",
+            title2: "-",
             skills2: "Направления",
             arch: 'Архитектурные проекты',
             cons: 'Строительные проекты',
@@ -214,10 +214,10 @@ i18n
             biography: '전기'
           },
           biography: {
-            title1: "목록",
+            title1: "-",
             skills: 'IT 지식',
             link: "내가 그것을 배운 방법 (웹 페이지)",
-            title2: "프로그램들",
+            title2: "-",
             skills2: "지도",
             arch: '건축 프로젝트',
             cons: '건설 프로젝트',
