@@ -22,7 +22,7 @@ function FrontendPortfolio(props) {
                   {data.map((info) => (
                     <div className="col" data-aos="fade-up" data-aos-duration="1000">
                       <div className="card" style={{width: '300px'}}>
-                          <i className="fa-solid fa-star fa-2xl card-img-top"></i>
+                          <i className="fa-solid fa-star fa-2xl card-img-top" style={{color: '#F3B664'}}></i>
                           <div className="card-body">
                             <a className="card-text" href={info.deployment}>- {info.title} -</a>
                           </div>
