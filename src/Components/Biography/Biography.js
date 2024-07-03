@@ -90,7 +90,7 @@ export default class Biography extends Component {
                 <td><i class="fa-solid fa-right-long fa-fade"></i> <a href="https://online.pdp.uz/">PDP Academy</a></td>
               </tr>
               <tr>
-                <th scope="row"><i class="fa-brands fa-js fa-fade"></i></th>
+                <th scope="row" className='fa-fade'>TS</th>
                 <td >TypeScript</td>
                 <td><i class="fa-solid fa-right-long fa-fade"></i> <a href="https://online.pdp.uz/">PDP Academy</a></td>
               </tr>
