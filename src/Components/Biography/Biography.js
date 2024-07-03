@@ -110,12 +110,12 @@ export default class Biography extends Component {
                 <td><i class="fa-solid fa-right-long fa-fade"></i> <a href="https://online.pdp.uz/">PDP Academy</a></td>
               </tr>
               <tr>
-                <th scope="row" className='fa-fade px-3'>dj</th>
+                <th scope="row" className='fa-fade'>dj</th>
                 <td >Django rest framework web development</td>
                 <td><i class="fa-solid fa-right-long fa-fade"></i> <a href="https://online.pdp.uz/">PDP Academy</a></td>
               </tr>
               <tr>
-                <th scope="row" className='fa-fade px-3'><i className="fa-brands fa-java fa-fade"></i></th>
+                <th scope="row" className='fa-fade'><i className="fa-brands fa-java fa-fade"></i></th>
                 <td >Spring boot</td>
                 <td><i class="fa-solid fa-right-long fa-fade"></i> <a href="https://youtu.be/Nv2DERaMx-4?si=61URGwHmn1CHbOs5">YouTobe lessons</a></td>
               </tr>
